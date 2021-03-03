@@ -41,6 +41,9 @@
     <ClCompile Include="SeekBehaviour.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -64,13 +67,19 @@
     <ClInclude Include="Agent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SeekBehaviour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="Behaviour.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SteeringBehaviour.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SeekBehaviour.h">
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderingBehaviour.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
