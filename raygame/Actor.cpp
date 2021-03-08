@@ -73,7 +73,7 @@ MathLibrary::Vector2 Actor::getWorldPosition()
     return MathLibrary::Vector2(m_globalTransform->m13, m_globalTransform->m23);
 }
 
-void Actor::setWorldPostion(MathLibrary::Vector2 value)
+void Actor::setWorldPosition(MathLibrary::Vector2 value)
 {
     if (m_parent)
     {
