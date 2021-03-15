@@ -25,7 +25,7 @@ MathLibrary::Vector2 SeekBehaviour::calculateForce(Agent* agent)
 void SeekBehaviour::update(Agent* agent, float deltaTime)
 {
 	//If the agent isn't null, calculate a new force and apply it to the agent
-	if (agent)
+	if (agent && getEnabled())
 	{
 		agent->addForce(calculateForce(agent));
 	}
